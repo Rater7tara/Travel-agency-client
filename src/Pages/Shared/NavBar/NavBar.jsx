@@ -1,13 +1,23 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
 import './NavBar.css';
+import { FaUser } from "react-icons/fa";
+import { AuthContext } from '../../../providers/AuthProvider';
+import { useContext } from 'react';
 
 const NavBar = () => {
 
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then()
+      .catch(error => console.log(error))
+  }
+
   const navOptions =
     <>
-      <li className='hover:bg-sky-400 rounded-md font-bold'><Link to="/home">Home</Link></li>
+      <li className='hover:bg-sky-400  rounded-md font-bold'><Link to="/home">Home</Link></li>
       <li className='hover:bg-sky-400 rounded-md font-bold'><Link to="/destination">Destination Details</Link></li>
       <li className='hover:bg-sky-400 rounded-md font-bold'><Link to="/about">About</Link></li>
     </>
@@ -16,7 +26,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar max-w-screen-2xl fixed z-10 bg-opacity-30 bg-black text-white mb-5">
+      <div className="navbar max-w-screen-2xl fixed z-10 bg-black bg-opacity-30 text-white  mb-5">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,7 +49,19 @@ const NavBar = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
           </button>
 
-          <button className="btn btn-info">Logout</button>
+          {
+            
+            user?.photoURL ?<img src={user.photoURL} className=" user-img rounded-full me-2 " alt="" title={user.displayName} />:<FaUser className='user-img rounded-full me-2 text-3xl'></FaUser>
+           }
+          {user?
+            
+          <button onClick={handleLogOut} className="btn btn-primary">Logout</button>
+          
+             :
+            <Link to="/login">
+              <button className="btn bg-sky-400">Login</button>
+            </Link>
+          }
 
 
         </div>
