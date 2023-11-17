@@ -1,0 +1,9 @@
+.featureCard{
+    width: 100%;
+}
+.rating-div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(173, 172, 172);
+    padding-bottom: 1rem;
+}

@@ -1,5 +1,3 @@
-// TourTypeCard.jsx
-
 import React from 'react';
 import './TourTypeCard.css';
 

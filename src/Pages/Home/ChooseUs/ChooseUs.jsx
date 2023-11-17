@@ -13,7 +13,7 @@ const ChooseUs = () => {
                             <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                                 <div
                                     className="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
-                                    <p className='text-violet-500 ms-2'>Why Choose Us</p>
+                                    <p className='text-blue-900 ms-2'>-- Why Choose Us --</p>
                                     <h1 className="mt-2 mb-8 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
                                         Plan Your Trip <br /><span className="text-yellow-400">With Tom</span>
                                     </h1>

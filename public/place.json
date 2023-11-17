@@ -1,0 +1,112 @@
+[
+    {
+      "_id": 1,
+      "place": "Paris, France",
+      "image": "https://i.ibb.co/Y2VVF0m/paris.jpg",
+      "travelers": 200,
+      "reviews": 150,
+      "ratings": 4.5,
+      "days": 5,
+      "details": "Explore the city of love, visit iconic landmarks like the Eiffel Tower, and indulge in French cuisine.",
+      "price": 1200
+    },
+    {
+      "_id": 2,
+      "place": "Cape Town, South Africa",
+      "image": "https://i.ibb.co/R9RgXM2/Cape-Town-South-Africa.jpg",
+      "travelers": 190,
+      "reviews": 140,
+      "ratings": 4.5,
+      "days": 6,
+      "details": "Discover the beauty of Table Mountain, visit Robben Island, and experience the cultural diversity.",
+      "price": 1700
+    },
+    {
+      "_id": 3,
+      "place": "New York City, USA",
+      "image": "https://i.ibb.co/K7t1xck/new-york.jpg",
+      "travelers": 300,
+      "reviews": 250,
+      "ratings": 4.7,
+      "days": 4,
+      "details": "Discover the vibrant energy of the city that never sleeps, explore Times Square, and see Broadway shows.",
+      "price": 1000
+    },
+    {
+      "_id": 4,
+      "place": "Marrakech, Morocco",
+      "image": "https://i.ibb.co/VmYkH9M/morocco.jpg",
+      "travelers": 180,
+      "reviews": 130,
+      "ratings": 4.6,
+      "days": 6,
+      "details": "Immerse yourself in the colors and flavors of the bustling markets, visit palaces, and try Moroccan cuisine.",
+      "price": 1500
+    },
+    {
+      "_id": 5,
+      "place": "Sydney, Australia",
+      "image": "https://i.ibb.co/D4bwfSm/sydney.jpg",
+      "travelers": 250,
+      "reviews": 200,
+      "ratings": 4.9,
+      "days": 8,
+      "details": "Experience the stunning landscapes, visit the Sydney Opera House, and relax on beautiful beaches.",
+      "price": 2200
+    },
+    {
+      "_id": 6,
+      "place": "Rio de Janeiro, Brazil",
+      "image": "https://i.ibb.co/t4m5mP4/brazil.jpg",
+      "travelers": 160,
+      "reviews": 110,
+      "ratings": 4.4,
+      "days": 5,
+      "details": "Enjoy the lively atmosphere, visit the iconic Christ the Redeemer statue, and dance to samba rhythms.",
+      "price": 1300
+    },
+    {
+      "_id": 7,
+      "place": "Barcelona, Spain",
+      "image": "https://i.ibb.co/k4cBZTM/Spain.jpg",
+      "travelers": 220,
+      "reviews": 180,
+      "ratings": 4.7,
+      "days": 7,
+      "details": "Explore the architectural wonders of Gaudi, stroll along La Rambla, and savor authentic Spanish cuisine.",
+      "price": 1600
+    },
+    {
+      "_id": 8,
+      "place": "Kyoto, Japan",
+      "image": "https://i.ibb.co/60YNhK7/japan.jpg",
+      "travelers": 150,
+      "reviews": 120,
+      "ratings": 4.8,
+      "days": 7,
+      "details": "Experience the charm of traditional Japanese culture, visit historic temples, and enjoy cherry blossoms.",
+      "price": 1800
+    },
+    {
+      "_id": 9,
+      "place": "Venice, Italy",
+      "image": "https://i.ibb.co/r2jMVnf/Venice-Italy.jpg",
+      "travelers": 210,
+      "reviews": 160,
+      "ratings": 4.8,
+      "days": 5,
+      "details": "Take a romantic gondola ride through the canals, explore St. Mark's Square, and enjoy Italian art.",
+      "price": 1400
+    },
+    {
+      "_id": 10,
+      "place": "Bangkok, Thailand",
+      "image": "https://i.ibb.co/Cn85KTX/Bangkok-Thailand.jpg",
+      "travelers": 280,
+      "reviews": 230,
+      "ratings": 4.6,
+      "days": 7,
+      "details": "Experience the vibrant street life, visit ornate temples, and indulge in delicious Thai street food.",
+      "price": 1500
+    }
+]
