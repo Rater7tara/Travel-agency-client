@@ -1,0 +1,55 @@
+.footer-logo{
+    width: 6rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-div{
+    height: 50%;
+    width: 22vw;
+    padding: 1rem;
+    align-items: flex-start;
+    justify-content: start;
+}
+.second-div{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    height: 54vh;
+    padding: 2rem;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.last-div{
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.link-hover{
+    font-size: medium;
+}
+.destination-footer{
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.des-first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.des-second{
+    display: flex;
+    flex-direction: column;
+}
+.des-third{
+    display: flex;
+    flex-direction: column;
+}
+
+
