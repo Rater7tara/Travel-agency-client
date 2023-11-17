@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "icon": "https://i.ibb.co/wR40DHW/city.png",
+      "tourName": "City Tour",
+      "hours": 2
+    },
+    {
+      "id": 2,
+      "icon": "https://i.ibb.co/zXzC5XW/mountain.png",
+      "tourName": "Mountain Trek",
+      "hours": 4
+    },
+    {
+      "id": 3,
+      "icon": "https://i.ibb.co/mcCDqny/sun-umbrella.png",
+      "tourName": "Beach Adventure",
+      "hours": 3
+    },
+    {
+      "id": 4,
+      "icon": "https://i.ibb.co/6wmZrhV/sailing-boat.png",
+      "tourName": "Boat Tour",
+      "hours": 5
+    },
+    {
+      "id": 5,
+      "icon": "https://i.ibb.co/6D4Sr34/restaurant.png",
+      "tourName": "Food Tour",
+      "hours": 2.5
+    },
+    {
+      "id": 6,
+      "icon": "https://i.ibb.co/D94B0GH/historic-site.png",
+      "tourName": "Historical Sites",
+      "hours": 3
+    }
+  ]

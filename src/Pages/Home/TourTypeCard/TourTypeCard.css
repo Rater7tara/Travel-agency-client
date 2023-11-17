@@ -1,0 +1,35 @@
+/* TourTypeCard.css */
+
+.tour-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .icon-container {
+    background-color: #fcd307; /* Yellow background */
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .tour-name {
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  
+  .tour-hours {
+    color: #777;
+  }
+  

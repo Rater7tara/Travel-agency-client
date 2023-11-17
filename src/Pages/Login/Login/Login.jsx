@@ -54,7 +54,7 @@ const Login = () => {
                 <title>Login | Wanderlust Ventures</title>
             </Helmet>
 
-            <div className="hero min-h-screen bg-base-200 mt-7">
+            <div className="hero min-h-screen mt-7">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
                         <Lottie animationData={login} loop={true} />
@@ -62,7 +62,7 @@ const Login = () => {
 
                     <form className='w-full' onSubmit={handleLogin}>
                         <h1 className="text-5xl font-bold mb-5">Login now!</h1>
-                        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">
 
                             <div className="card-body">
                                 <div className="form-control">
