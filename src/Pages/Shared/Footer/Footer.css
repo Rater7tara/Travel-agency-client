@@ -52,4 +52,120 @@
     flex-direction: column;
 }
 
-
+/* 1st Mobile device */
+@media screen and (max-width:576px) {
+    .footer-logo{
+        width: 4rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .first-div{
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+        justify-content: start;
+    }
+    .second-div{
+        width: 100%;
+        padding: 1rem;
+        border: none;
+    }
+    
+    .last-div{
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+ 
+ /* 2nd Mobile device */
+ @media screen and (min-width:360px) and (max-width:575px){
+    .footer-logo{
+        width: 4rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .first-div{
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+        justify-content: start;
+    }
+    .second-div{
+        width: 100%;
+        padding: 1rem;
+        border: none;
+    }
+    
+    .last-div{
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+ }
+ 
+ 
+ /*1st tab device */
+ @media screen and (min-width:577px) and (max-width: 992px) {
+    .footer-logo{
+        width: 4rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .first-div{
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+        justify-content: start;
+    }
+    .second-div{
+        width: 100%;
+        padding: 1rem;
+        border: none;
+    }
+    
+    .last-div{
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+ 
+ /*2nd tab device */
+ @media screen and (min-width:768px) and (max-width: 1180px) {
+    .footer-logo{
+        width: 4rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .first-div{
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+        justify-content: start;
+    }
+    .second-div{
+        width: 100%;
+        padding: 1rem;
+        border: none;
+    }
+    
+    .last-div{
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+ }

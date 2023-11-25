@@ -1,0 +1,94 @@
+.avatar-div{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+.testimonial-avater{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.star-img{
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* 1st Mobile device */
+@media screen and (max-width:576px) {
+  .testimonial-avater{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.avatar-div{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+}
+
+/* 2nd Mobile device */
+@media screen and (min-width:360px) and (max-width:575px){
+  .testimonial-avater{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.avatar-div{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+}
+
+
+/*1st tab device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+  .testimonial-avater{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.avatar-div{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+}
+
+/*2nd tab device */
+@media screen and (min-width:768px) and (max-width: 1180px) {
+  .testimonial-avater{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.avatar-div{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+}
+

@@ -5,7 +5,7 @@ const ChooseUs = () => {
     return (
         <>
 
-            <section className="mb-16 mt-16">
+            <section className="mb-8 mt-10">
 
                 <div className="px-6 py-12 text-center md:px-12 lg:text-left">
                     <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl xl:px-32">

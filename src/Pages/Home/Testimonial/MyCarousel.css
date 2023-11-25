@@ -1,0 +1,28 @@
+.testimonial-slider {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .slider-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .pagination-dot.active {
+    background-color: #3498db;
+  }
