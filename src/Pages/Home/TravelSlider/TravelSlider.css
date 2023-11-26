@@ -62,4 +62,77 @@
   .slick-dots li.slick-active button {
     opacity: 1;
   }
+
+  /* 1st Mobile device */
+@media screen and (max-width:576px) {
+  .slide {
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slick-dots {
+    bottom: 5px; /* Adjust the position of pagination for mobile */
+  }
+  .slide img {
+    border-radius: 8px; /* Retain border-radius for rounded corners */
+    max-width: 100%; /* Ensure images don't overflow */
+  }
+
+}
+  
+
+/* 2nd Mobile device */
+@media screen and (min-width:360px) and (max-width:575px){
+  .slide {
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+
+}
+
+
+/*1st tab device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+  .slide {
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/*2nd tab device */
+@media screen and (min-width:768px) and (max-width: 1180px) {
+  .slide {
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
   

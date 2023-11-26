@@ -101,7 +101,7 @@ const Banner = () => {
             <Autocomplete ></Autocomplete>
 
           </div>
-          <div className="form-group inline">
+          <div className="form-group type-form inline">
             <label htmlFor="activity" className="form-label form-font">
               Type
             </label>
