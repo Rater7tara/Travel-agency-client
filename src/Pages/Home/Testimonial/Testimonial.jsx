@@ -6,7 +6,7 @@ import "./Testimonial.css";
 
 const Testimonial = () => {
     return (
-        <div>
+        <div className='mb-8'>
             <h4 className='text-lg font-bold text-center text-blue-900'>_____Testimonial_____</h4>
             <h1 className='text-3xl font-bold  text-center my-3'>What our customer <br />
                 says about us.

@@ -36,7 +36,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl"><img className='logo' src={logo} alt="" /><span className='text-white font-bold'>Wanderlust Ventures</span></a>
+          <a className="btn btn-ghost normal-case text-xl"><img className='logo' src={logo} alt="" /><span className='text-white font-bold'>Wanderlust</span></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

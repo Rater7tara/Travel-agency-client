@@ -1,0 +1,141 @@
+.featured-item{
+    position: relative;
+    background-image: url('../../../assets/Banner/sydney.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 86vh;
+    background-position: center;
+
+}
+
+.para-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5rem;
+    height: 86vh;
+    align-items: center;
+    justify-items: center;
+}
+.para-text{
+    width: 50%;
+}
+
+.para-card{
+    width: 20vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem
+}
+
+
+ /* 1st Mobile device */
+ @media screen and (max-width:576px) {
+    .featured-item{
+        height: 138vh;
+    }
+    
+    .para-card{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .para-div{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 138vh;
+    }
+    .para-text{
+        width: 100%;
+        margin-top: 2rem;
+    }
+  
+  }
+    
+  
+  /* 2nd Mobile device */
+  @media screen and (min-width:360px) and (max-width:575px){
+    .featured-item{
+        height: 138vh;
+    }
+    
+    .para-card{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .para-div{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 138vh;
+    }
+    .para-text{
+        width: 100%;
+        margin-top: 2rem;
+    }
+  
+  }
+  
+  
+  /*1st tab device */
+  @media screen and (min-width:577px) and (max-width: 992px) {
+    .featured-item{
+        height: 138vh;
+    }
+    
+    .para-card{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .para-div{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 138vh;
+    }
+    .para-text{
+        width: 100%;
+        margin-top: 2rem;
+    }
+  }
+  
+  /*2nd tab device */
+  @media screen and (min-width:768px) and (max-width: 1180px) {
+    .featured-item{
+        height: 138vh;
+    }
+    
+    .para-card{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .para-div{
+        /* flex-direction: column; */
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 138vh;
+    }
+    .para-text{
+        width: 100%;
+        margin-top: 2rem;
+    }
+  }

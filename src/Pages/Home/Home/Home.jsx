@@ -5,6 +5,7 @@ import Banner from '../Banner/Banner';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import FeatureTour from '../FeatureTour/FeatureTour';
 import Flexible from '../Flexible/Flexible';
+import ReadyTravel from '../ReadyTravel/ReadyTravel';
 import Testimonial from '../Testimonial/Testimonial';
 import TourTypeList from '../TourTypeCard/TourTypeList';
 import TravelSlider from '../TravelSlider/TravelSlider';
@@ -31,6 +32,8 @@ const Home = () => {
             </div>
             
             <Testimonial></Testimonial>
+
+            <ReadyTravel></ReadyTravel>
         </div>
     );
 };

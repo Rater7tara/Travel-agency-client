@@ -10,7 +10,7 @@ const FeatureCard = ({tour}) => {
 
     return (
         <div>
-            <div className="featureCard card bg-base-100 shadow-xl">
+            <div className="featureCard card bg-base-100 shadow-xl ">
   <figure><img src={image} alt="place" /></figure>
   <div className="card-body">
     <h2 className="card-title">
