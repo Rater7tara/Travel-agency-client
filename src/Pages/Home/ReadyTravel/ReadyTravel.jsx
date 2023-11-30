@@ -6,6 +6,7 @@ const ReadyTravel = () => {
 
 
     return (
+        <>
         <div className="featured-item bg-fixed text-white">
             <div className="para-div bg-slate-900 bg-opacity-60">
 
@@ -50,8 +51,27 @@ const ReadyTravel = () => {
                     
                     
                 </div>
+
+                
             </div>
+            
         </div>
+        <div className='company-div bg-slate-50  border-yellow-400'>
+                    <div className='bg-blue-900 bg-opacity-80'>
+                    <h1 className='font-bold text-yellow-300 text-2xl text-center py-7 mb-2'>Our Trusted Partners</h1>
+                    <div className='company pb-8'>
+                    <img className='company-img shadow-xl' src="https://i.ibb.co/0DyVq6N/logo-3-removebg-preview.png" alt="" />
+                    <img className='company-img shadow-xl' src="https://i.ibb.co/S6L2C7Z/logo-1-removebg-preview.png" alt="" />
+                    
+                    <img className='company-img shadow-xl' src="https://i.ibb.co/fdFXncp/logo-2-removebg-preview.png" alt="" />
+
+                    <img className='company-img shadow-xl' src="https://i.ibb.co/x2DLrwT/logo-5-removebg-preview.png" alt="" />
+                    <img className='company-img shadow-xl' src="https://i.ibb.co/mhh79pY/logo-4-removebg-preview.png" alt="" />
+                    </div>
+                    </div>
+
+                </div>
+        </>
     );
 };
 

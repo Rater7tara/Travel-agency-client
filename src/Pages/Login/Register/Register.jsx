@@ -8,7 +8,7 @@ import Lottie from "lottie-react";
 import { useForm } from "react-hook-form";
 import Swal from 'sweetalert2'
 import SocialLogin from '../../Shared/SocialLogin/SocialLogin';
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { BsFillEyeSlashFill, BsFillEyeFill } from "react-icons/bs";
 
 
 const Register = () => {
@@ -117,7 +117,7 @@ const Register = () => {
                                                 className={`input input-bordered w-full ${showPassword ? 'password-visible' : ''}`}
                                             />
                                             <span className="eye-icon" onClick={handleTogglePasswordVisibility}>
-                                                {showPassword ? <FaEyeSlash /> : <FaEye />}
+                                                {showPassword ? <BsFillEyeSlashFill /> : <BsFillEyeFill />}
                                             </span>
                                         </div>
                                         {errors.password?.type === 'required' && <p className="text-red-600">Password is required</p>}

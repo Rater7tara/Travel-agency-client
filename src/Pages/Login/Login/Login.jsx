@@ -3,7 +3,7 @@ import { AuthContext } from '../../../providers/AuthProvider';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Input, Ripple, initTE } from "tw-elements";
 initTE({ Input, Ripple, }, true);
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { BsFillEyeSlashFill, BsFillEyeFill } from "react-icons/bs";
 import { Helmet } from 'react-helmet-async';
 import login from '../../../assets/login.json';
 import Lottie from "lottie-react";
@@ -83,7 +83,7 @@ const Login = () => {
                                             className="input input-bordered w-full"
                                         />
                                             <span className="eye-icon" onClick={handleTogglePasswordVisibility}>
-                                                {showPassword ? <FaEyeSlash /> : <FaEye />}
+                                                {showPassword ? <BsFillEyeSlashFill /> : <BsFillEyeFill />}
                                             </span>
                                         </div>
                                     <label className="label">

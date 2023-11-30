@@ -1,6 +1,10 @@
 .featureCard{
     width: 100%;
 }
+.feature-main-div{
+    background-image: url("https://i.ibb.co/1mskZ5v/snapedit-1701353315541.png");
+    background-size: cover;
+}
 .rating-div{
     display: flex;
     justify-content: space-between;

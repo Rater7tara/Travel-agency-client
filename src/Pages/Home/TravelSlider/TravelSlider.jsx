@@ -5,7 +5,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './TravelSlider.css';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
-import { FaArrowRight } from "react-icons/fa";
 
 const TravelSlider = () => {
   const [places, setPlaces] = useState([]);

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/logo.png';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/Fa";
+import { FaFacebook, FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import './Footer.css';
 
 const Footer = () => {
@@ -14,7 +14,6 @@ const Footer = () => {
                 <p className='text-lg font-semibold'>Call Us <span className='text-yellow-400'>(+88) 013224-3333</span></p>
                 <p>Gazipur, Dhaka, Bangladesh</p>
                 <p>nowshinakteremu005@gmail.com</p>
-
                 <div className="grid grid-flow-col gap-4 mt-5">
                     <a href="https://www.facebook.com/profile.php?id=100016740286431" style={{ '--i': 7 }}>
                         <FaFacebook className='text-2xl'></FaFacebook>

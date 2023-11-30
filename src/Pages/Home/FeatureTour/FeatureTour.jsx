@@ -16,7 +16,8 @@ const FeatureTour = () => {
 
 
     return (
-        <div className='feature-main-div pb-16 bg-blue-900'>
+        <div className='feature-main-div '>
+            <div className='bg-blue-900 bg-opacity-80 pb-16'>
             <h4  className='text-lg text-white font-bold text-center mt-14 pt-12 mb-2'>_____Tours_____</h4>
         <h1 className='text-3xl text-white font-bold text-center'>Featured Tours</h1>
         <div className='grid md:grid-cols-2  lg:grid-cols-4 gap-4  mt-10 p-4 ' >
@@ -25,6 +26,7 @@ const FeatureTour = () => {
             tour={tour}
             ></FeatureCard>)}
         </div>
+            </div>
         </div>
     );
 };
