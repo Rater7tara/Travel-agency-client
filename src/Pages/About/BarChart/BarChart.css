@@ -10,13 +10,14 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 100vh;
+    height: 90vh;
     width: 50%;
   }
   
-  .card {
+  .card-bar {
     position: absolute;
-    height: 100vh;
+    width: 80%;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -25,19 +26,20 @@
   .rotated-st {
     margin-top: 2rem;
     width: 15rem;
-    height: 100%;
+    height: 35vh;
   
   }
 
   .rotated-nd{
-    width: 15rem;
+    width: 17rem;
     height: 50vh;
+    
     border: 15px solid cornsilk;
     
   }
 
   .rotated-rd{
-    width: 15rem;
+    width: 17rem;
     height: 50vh;
     border: 12px solid cornsilk;
     
@@ -50,15 +52,14 @@
   }
 
   .rotate-center{
-    transform: rotate(-28deg);
-    margin-right: 2rem;
-    /* margin-bottom: 2rem; */
+    transform: rotate(-30deg);
+    margin-right: 5rem;
   }
   
   .rotate-right {
     transform: rotate(15deg);
     margin-left: 10rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
 
@@ -89,7 +90,7 @@
     width: 100%;
   }
 
-  .card {
+  .card-bar {
     position: absolute;
     height: 100vh;
     justify-content: center;
@@ -98,14 +99,18 @@
   }
   .rotated-st {
     margin-right: 7rem;
-    width: 15rem;
-    height: 100%;
   
   }
   .rotated-nd{
     width: 15rem;
     height: 50vh;
     border: 15px solid cornsilk;
+    
+  }
+  .rotated-rd{
+    width: 15rem;
+    height: 50vh;
+    border: 12px solid cornsilk;
     
   }
 
@@ -137,7 +142,7 @@
     width: 100%;
   }
 
-  .card {
+  .card-bar{
     position: absolute;
     height: 100vh;
     justify-content: center;
@@ -146,7 +151,7 @@
   }
   .rotated-st {
     margin-right: 7rem;
-    width: 15rem;
+    width: 12rem;
     height: 100%;
   
   }
@@ -185,7 +190,7 @@
     width: 100%;
   }
 
-  .card {
+  .card-bar{
     position: absolute;
     height: 90vh;
     justify-content: center;
@@ -232,7 +237,7 @@
     width: 100%;
   }
 
-  .card {
+  .card-bar{
     position: absolute;
     height: 90vh;
     justify-content: center;

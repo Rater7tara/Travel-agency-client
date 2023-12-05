@@ -7,14 +7,14 @@ const BarChart = () => {
         <div className='bar-section'>
 
             <div className="card-container">
-                <div className="card">
+                <div className="card card-bar">
                     <img src="https://i.postimg.cc/KvVSQptZ/paris-stamp-removebg-preview.png" alt="Image 1" className="rotated-st rotate-left" />
                 </div>
-                <div className="card">
-                    <img src="https://i.postimg.cc/T2DDtcYj/woman-relaxing-with-her-feet-edge-boat-travel-concept-with-seagulls-130111-7385.jpg" alt="Image 2" className="rotated-nd rotate-center" />
+                <div className="card card-bar">
+                    <img src="https://i.postimg.cc/T2DDtcYj/woman-relaxing-with-her-feet-edge-boat-travel-concept-with-seagulls-130111-7385.jpg" alt="Image 2" className="rotated-nd rotate-center shadow-2xl" />
                 </div>
-                <div className="card">
-                    <img src="https://i.postimg.cc/7ZtYnLhR/vertical-outdoor-shot-cheerful-female-makes-professional-photos-sits-rocks-near-mountain-river.jpg" alt="Image 3" className="rotated-rd rotate-right" />
+                <div className="card card-bar">
+                    <img src="https://i.postimg.cc/7ZtYnLhR/vertical-outdoor-shot-cheerful-female-makes-professional-photos-sits-rocks-near-mountain-river.jpg" alt="Image 3" className="rotated-rd rotate-right shadow-2xl" />
                 </div>
             </div>
 
