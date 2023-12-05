@@ -18,14 +18,14 @@
 
 .about-us-div {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-evenly;
+    width: 90%;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
 .About-text {
-    width: 35vw;
+    width: 40%;
 }
 
 .About-text p {
@@ -34,19 +34,36 @@
 
 .about-us-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.img-div{
+    width: 40%;
+    height: 70vh;
+    margin:auto;
+}
+.about-img{
+    width: 100%;
+    height: 100%;
 }
 
-.img-div {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
+.video-container {
+    position: relative;
+    padding-bottom: 45%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 5rem;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+  }
 
-.img-second {
-    width: 70%;
-}
 
+  
 
 /* 1st Mobile device */
 @media screen and (max-width:576px) {
@@ -54,6 +71,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: auto;
         width: 100%;
     }
@@ -64,15 +82,14 @@
     }
 
     .img-div {
-        width: 90%;
+        width: 50%;
+        height: 65vh;
         margin: auto;
     }
-
-    .img-second {
-        width: 80%;
-        margin-bottom: 1rem;
+    .about-img{
+        width: 100%;
+        height: 100%;
     }
-
     .About-num{
         flex-direction: column;
         margin: auto;

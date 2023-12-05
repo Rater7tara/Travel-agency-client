@@ -1,0 +1,16 @@
+/* HorizontalBarChart.css */
+
+
+.bar {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  color: white;
+  transition: width 0.5s ease; /* Add transition for smooth animation */
+}
+
+.bar-text {
+  margin-left: 10px;
+}

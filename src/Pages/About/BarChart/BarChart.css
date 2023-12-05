@@ -1,0 +1,65 @@
+.bar-section{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+  }
+  .card-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    border: 1px solid red;
+    width: 50%;
+  }
+  
+  .card {
+    position: absolute;
+    /* width: 15rem; 
+    height: 150px; */
+    /* background-color: rgb(189, 233, 32);
+    margin-bottom: 5rem; */
+  }
+  
+  .rotated-st {
+    width: 20rem;
+    height: 100%;
+  }
+
+  .rotated-nd{
+    width: 15rem;
+    border: 15px solid cornsilk;
+  }
+
+  .rotated-rd{
+    width: 15rem;
+    border: 12px solid cornsilk;
+  }
+  
+  .rotate-left {
+    transform: rotate(-18deg);
+    margin-bottom: 22rem;
+    margin-left: 15rem;
+  }
+
+  .rotate-center{
+    transform: rotate(-28deg);
+    margin-right: 7rem;
+    /* margin-bottom: 2rem; */
+  }
+  
+  .rotate-right {
+    transform: rotate(15deg);
+    margin-left: 10rem;
+    margin-top: 3rem;
+  }
+
+
+  .bar-div{
+    width: 42%;
+    margin-right: 2rem;
+  }
+  .bar{
+    height: 2rem;
+  }
