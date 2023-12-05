@@ -8,19 +8,21 @@ const BarChart = () => {
 
             <div className="card-container">
                 <div className="card">
-                    <img src="https://i.postimg.cc/4yrf3mKj/paris-stamp.jpg" alt="Image 1" className="rotated-st rotate-left" />
+                    <img src="https://i.postimg.cc/KvVSQptZ/paris-stamp-removebg-preview.png" alt="Image 1" className="rotated-st rotate-left" />
                 </div>
                 <div className="card">
-                    <img src="https://img.freepik.com/free-photo/happy-couple-having-wine-with-view-eiffel-tower_181624-33226.jpg?size=626&ext=jpg&ga=GA1.1.1965103633.1697962610&semt=sph" alt="Image 2" className="rotated-nd rotate-center" />
+                    <img src="https://i.postimg.cc/T2DDtcYj/woman-relaxing-with-her-feet-edge-boat-travel-concept-with-seagulls-130111-7385.jpg" alt="Image 2" className="rotated-nd rotate-center" />
                 </div>
                 <div className="card">
-                    <img src="https://img.freepik.com/free-photo/happy-couple-having-wine-with-view-eiffel-tower_181624-33226.jpg?size=626&ext=jpg&ga=GA1.1.1965103633.1697962610&semt=sph" alt="Image 3" className="rotated-rd rotate-right" />
+                    <img src="https://i.postimg.cc/7ZtYnLhR/vertical-outdoor-shot-cheerful-female-makes-professional-photos-sits-rocks-near-mountain-river.jpg" alt="Image 3" className="rotated-rd rotate-right" />
                 </div>
             </div>
 
             <div className='bar-div'>
+                <h1 className='text-5xl font-bold'>Our Popular Tour</h1>
+                <p className='text-xl ms-2 mt-2 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque facere repellat corrupti harum vel.hgjhgjhgjhgjhghj</p>
                 <div className='mt-5'>
-                    <div className='flex justify-between text-xl font-medium'>
+                    <div className='flex justify-between text-base font-bold'>
                         <h1>Country side</h1>
                         <h1>76%</h1>
                     </div>
@@ -28,7 +30,7 @@ const BarChart = () => {
                 </div>
 
                 <div className='mt-7'>
-                    <div className='flex justify-between text-xl font-medium '>
+                    <div className='flex justify-between text-base font-bold'>
                         <h1 className=''>Vineyard</h1>
                         <h1>92%</h1>
                     </div>
@@ -36,7 +38,7 @@ const BarChart = () => {
                 </div>
 
                 <div className='mt-7'>
-                    <div className='flex justify-between text-xl font-medium '>
+                    <div className='flex justify-between text-base font-bold'>
                         <h1 className=''>Wine Tasting</h1>
                         <h1>86%</h1>
                     </div>

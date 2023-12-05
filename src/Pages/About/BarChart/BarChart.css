@@ -7,8 +7,9 @@
   .card-container {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin: auto;
     height: 100vh; /* Adjust as needed */
     border: 1px solid red;
     width: 50%;
@@ -16,6 +17,11 @@
   
   .card {
     position: absolute;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
     /* width: 15rem; 
     height: 150px; */
     /* background-color: rgb(189, 233, 32);
@@ -23,29 +29,35 @@
   }
   
   .rotated-st {
-    width: 20rem;
+    margin-top: 2rem;
+    width: 15rem;
     height: 100%;
+  
   }
 
   .rotated-nd{
     width: 15rem;
+    height: 50vh;
     border: 15px solid cornsilk;
+    
   }
 
   .rotated-rd{
     width: 15rem;
+    height: 50vh;
     border: 12px solid cornsilk;
+    
   }
   
   .rotate-left {
-    transform: rotate(-18deg);
+    transform: rotate(5deg);
     margin-bottom: 22rem;
     margin-left: 15rem;
   }
 
   .rotate-center{
     transform: rotate(-28deg);
-    margin-right: 7rem;
+    margin-right: 2rem;
     /* margin-bottom: 2rem; */
   }
   
