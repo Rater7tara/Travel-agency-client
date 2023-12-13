@@ -2,6 +2,7 @@ import {
     Navigate,
     createBrowserRouter,
 } from "react-router-dom";
+import TicTacToe from "../components/TicTacToe/TicTacToe";
 import ErrorPage from "../Layout/ErrorPage";
 import LoginLayout from "../Layout/LoginLayout";
 import Main from "../Layout/Main";
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/game',
+          element: <TicTacToe></TicTacToe>
         },
       ]
     }

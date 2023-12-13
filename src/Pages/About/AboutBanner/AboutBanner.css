@@ -36,34 +36,37 @@
     display: flex;
     justify-content: space-evenly;
 }
-.img-div{
+
+.img-div {
     width: 40%;
     height: 70vh;
-    margin:auto;
+    margin: auto;
 }
-.about-img{
+
+.about-img {
     width: 100%;
     height: 100%;
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 45%; /* 16:9 aspect ratio */
+    padding-bottom: 45%;
+    /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
     margin-top: 5rem;
-  }
-  
-  .video-container iframe {
+}
+
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 80vh;
-  }
+}
 
 
-  
+
 
 /* 1st Mobile device */
 @media screen and (max-width:576px) {
@@ -86,11 +89,13 @@
         height: 65vh;
         margin: auto;
     }
-    .about-img{
+
+    .about-img {
         width: 100%;
         height: 100%;
     }
-    .About-num{
+
+    .About-num {
         flex-direction: column;
         margin: auto;
         justify-content: center;
@@ -104,15 +109,15 @@
         height: 0;
         overflow: hidden;
         margin-top: 5rem;
-      }
-      
-      .video-container iframe {
+    }
+
+    .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 50vh;
-      }
+    }
 
 }
 
@@ -142,7 +147,7 @@
         margin-bottom: 1rem;
     }
 
-    .About-num{
+    .About-num {
         flex-direction: column;
         margin: auto;
         justify-content: center;
@@ -156,15 +161,15 @@
         height: 0;
         overflow: hidden;
         margin-top: 5rem;
-      }
-      
-      .video-container iframe {
+    }
+
+    .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 50vh;
-      }
+    }
 
 }
 
@@ -193,7 +198,8 @@
         width: 70%;
         margin-bottom: 1rem;
     }
-    .About-num{
+
+    .About-num {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
@@ -208,15 +214,15 @@
         height: 0;
         overflow: hidden;
         margin-top: 5rem;
-      }
-      
-      .video-container iframe {
+    }
+
+    .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 50vh;
-      }
+    }
 }
 
 /*2nd tab device */
@@ -250,13 +256,13 @@
         height: 0;
         overflow: hidden;
         margin-top: 5rem;
-      }
-      
-      .video-container iframe {
+    }
+
+    .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 50vh;
-      }
+    }
 }

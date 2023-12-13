@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="footer p-8 bg-black text-neutral-content mt-10">
+        <footer className="footer p-8 bg-black text-neutral-content">
             <div className='first-div'>
                 <img className='footer-logo' src={logo} alt="" />
                 <h1 className='text-3xl font-bold'>Wanderlust</h1>
