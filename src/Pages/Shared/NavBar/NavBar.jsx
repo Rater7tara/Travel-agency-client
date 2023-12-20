@@ -20,7 +20,7 @@ const NavBar = () => {
       <Link  to="/home" className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Home</Link>
       <Link to="/destination"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Destination Details</Link>
       <Link to="/about"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>About</Link>
-      {/*<Link to="/game"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Game</Link> */}
+      <Link to="/game"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Game</Link>
     </>
 
 
