@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Wanderlust Ventures | Home</title>
+                <title>Wanderlust | Home</title>
             </Helmet>
 
             <Banner></Banner>

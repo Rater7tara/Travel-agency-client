@@ -17,10 +17,10 @@ const NavBar = () => {
 
   const navOptions =
     <>
-      <li className='rounded-md hover:bg-yellow-300 font-bold text-white'><Link to="/home">Home</Link></li>
-      <li className='hover:bg-yellow-400 rounded-md font-bold'><Link to="/destination">Destination Details</Link></li>
-      <li className='hover:bg-yellow-400 rounded-md font-bold'><Link to="/about">About</Link></li>
-      <li className='hover:bg-yellow-400 rounded-md font-bold'><Link to="/game">Game</Link></li>
+      <Link  to="/home" className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Home</Link>
+      <Link to="/destination"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Destination Details</Link>
+      <Link to="/about"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>About</Link>
+      {/*<Link to="/game"  className='rounded-md hover:bg-yellow-300 font-bold text-white text-center p-3 me-2'>Game</Link> */}
     </>
 
 
