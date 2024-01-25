@@ -92,7 +92,7 @@ const Banner = () => {
         </Swiper>
       </div>
 
-      <div className="travel-search-container rounded-lg ">
+      {/* <div className="travel-search-container rounded-lg ">
         <form className="search-form" onSubmit={handleSubmit}>
           <div className="form-group inline">
             <label htmlFor="destination" className="form-label">
@@ -155,7 +155,7 @@ const Banner = () => {
             Search
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

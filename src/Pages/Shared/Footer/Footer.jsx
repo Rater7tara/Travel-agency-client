@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="footer p-8 bg-black text-neutral-content">
+        <footer className="footer lg:p-5 bg-black text-neutral-content">
             <div className='first-div'>
                 <img className='footer-logo' src={logo} alt="" />
                 <h1 className='text-3xl font-bold'>Wanderlust</h1>
@@ -31,47 +31,72 @@ const Footer = () => {
             </div>
 
 
+            <nav>
+    <header className="footer-title">Services</header> 
+    <a className="link link-hover">Branding</a>
+    <a className="link link-hover">Design</a>
+    <a className="link link-hover">Marketing</a>
+    <a className="link link-hover">Advertisement</a>
+  </nav> 
+  <nav>
+    <header className="footer-title">Company</header> 
+    <a className="link link-hover">About us</a>
+    <a className="link link-hover">Contact</a>
+    <a className="link link-hover">Jobs</a>
+    <a className="link link-hover">Press kit</a>
+  </nav> 
+  <nav>
+    <header className="footer-title">Legal</header> 
+    <a className="link link-hover">Terms of use</a>
+    <a className="link link-hover">Privacy policy</a>
+    <a className="link link-hover">Cookie policy</a>
+  </nav> 
+  <form>
+    <header className="footer-title">Newsletter</header> 
+    <fieldset className="form-control w-80">
+      <label className="label">
+        <span className="label-text">Enter your email address</span>
+      </label> 
+      <div className="join">
+        <input type="text" placeholder="username@site.com" className="input input-bordered join-item" /> 
+        <button className="btn btn-primary join-item">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
 
-            <div className='second-div'>
-                <div className='des-first'>
+
+
+            {/* <section className='second-section'>
+                <div className=''>
                     <header className="footer-title text-lg">Company</header>
-                    <a className="link link-hover mt-7">About Us</a>
-                    <a className="link link-hover mt-7">Contact Us</a>
-                    <a className="link link-hover mt-7">Travel Guides</a>
-                    <a className="link link-hover mt-7">Data Policy</a>
+                    <div className='des-first'>
+                        <a className="link link-hover mt-7">About Us</a>
+                        <a className="link link-hover mt-7">Contact Us</a>
+                        <a className="link link-hover mt-7">Travel Guides</a>
+                        <a className="link link-hover mt-7">Data Policy</a>
+                    </div>
                 </div>
-                <div className='des-second'>
+                <div className=''>
                     <header className="footer-title text-lg">Top Destination</header>
-                    <a className="link link-hover mt-7">Las Vegas</a>
-                    <a className="link link-hover mt-7">New York City</a>
-                    <a className="link link-hover mt-7">San Francisco</a>
-                    <a className="link link-hover mt-7">Hawaii</a>
-                </div>
-                <div className='des-third mt-9'>
-                    <a className="link link-hover mt-7">Tokyo</a>
-                    <a className="link link-hover mt-7">Sydney</a>
-                    <a className="link link-hover mt-7">Melbourne</a>
-                    <a className="link link-hover mt-7">Dubai</a>
-                </div>
-            </div>
+                    <div className='top-des flex'>
 
-            <div className='last-div'>
-                <form >
-                    <header className="footer-title">Sign Up Newsletter</header>
-                    <fieldset className="form-control w-80">
-                        <label className="label">
-                            <span className="label-text text-white">Enter your Email Address</span>
-                        </label>
-                        <div className="join">
-                            <input type="text" placeholder="Your Email" className="input input-bordered join-item" />
-                            <button className="btn btn-warning join-item">Subscribe</button>
+                        <div className='des-second'>
+                            <a className="link link-hover mt-7">Las Vegas</a>
+                            <a className="link link-hover mt-7">New York City</a>
+                            <a className="link link-hover mt-7">San Francisco</a>
+                            <a className="link link-hover mt-7">Hawaii</a>
                         </div>
-                    </fieldset>
-                </form>
+                        <div className='des-third'>
+                            <a className="link link-hover mt-7">Tokyo</a>
+                            <a className="link link-hover mt-7">Sydney</a>
+                            <a className="link link-hover mt-7">Melbourne</a>
+                            <a className="link link-hover mt-7">Dubai</a>
+                        </div>
+                    </div>
+                </div>
 
 
-                <p className='my-6'>@ 2023 All Right Reserved by Wanderlust</p>
-            </div>
+            </section> */}
         </footer>
     );
 };

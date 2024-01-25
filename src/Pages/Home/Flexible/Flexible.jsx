@@ -6,7 +6,7 @@ const Flexible = () => {
       <div className='bg-slate-50'>
 
         <div  className='flexible-div flex justify-center px-14 '>
-            <div  className='flexi-text'>
+            <div  className='flexi-text lg:ps-8 lg:pe-8' >
                 <p className='text-md text-blue-900 font-bold'>Why We Are Best</p>
                 <h1 className='text-4xl font-bold'>Keep Things <br /> Flexible</h1>
                 <button className='btn btn-active my-6'>Contact Us</button>
